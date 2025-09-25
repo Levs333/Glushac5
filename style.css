@@ -1,0 +1,70 @@
+header {
+    background-color: peachpuff;
+    display: flex;
+    flex-direction: column; /* Розташовує елементи вертикально */
+    align-items: center; /* Центрує по горизонталі */
+    text-align: center; /* Центрує текст */
+    padding: 20px; /* Додає відступи для кращого вигляду */
+}
+
+h1 {
+    margin: 0; /* Прибирає стандартні відступи заголовка */
+    font-size: 2em; /* Збільшує розмір шрифту, якщо потрібно */
+}
+
+header img {
+    margin-top: 10px; /* Додає відступ між заголовком і зображенням */
+}
+
+body {
+    font-family: sans-serif;
+    background-color: black;
+    color: white;
+    margin: 0;
+    text-align: center;
+}
+
+table{
+    border: 3px solid rgb(29, 113, 29);
+    border-collapse: collapse;
+    width: 90%; /* Збільшена ширина таблиці */
+    margin: 20px auto; /* Центрування таблиці по горизонталі */
+    font-family: Arial, sans-serif;
+}
+
+td{
+    border: 3px solid rgb(29, 113, 29);
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    border: 3px double peachpuff;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    justify-content: space-between;
+}
+
+footer {
+    background-color: peachpuff;
+    display: flex;
+    justify-content: space-between; /* Розташовує елементи так, щоб кнопка була справа */
+    align-items: center; /* Вертикальне центрування */
+    padding: 20px; /* Відступи для вигляду */
+}
+
+.aaaaa {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(53, 116, 39);
+    border: 3px double rgb(0, 0, 0);
+    padding: 10px;
+    border-radius: 15px;
+    text-align: center;
+}
